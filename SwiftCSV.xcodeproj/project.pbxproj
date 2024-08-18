@@ -50,6 +50,10 @@
 		50B3EEA5286F8AA3007B3956 /* CSVDelimiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B3EEA3286F8A84007B3956 /* CSVDelimiter.swift */; };
 		50B3EEA6286F8AA4007B3956 /* CSVDelimiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B3EEA3286F8A84007B3956 /* CSVDelimiter.swift */; };
 		50B3EEA7286F8AA5007B3956 /* CSVDelimiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B3EEA3286F8A84007B3956 /* CSVDelimiter.swift */; };
+		50B575DA2BEE1E2E006C9262 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 50B575D92BEE1E2E006C9262 /* PrivacyInfo.xcprivacy */; };
+		50B575DB2BEE1E2E006C9262 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 50B575D92BEE1E2E006C9262 /* PrivacyInfo.xcprivacy */; };
+		50B575DC2BEE1E2E006C9262 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 50B575D92BEE1E2E006C9262 /* PrivacyInfo.xcprivacy */; };
+		50B575DD2BEE1E2E006C9262 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 50B575D92BEE1E2E006C9262 /* PrivacyInfo.xcprivacy */; };
 		5FB74B9B1CCB9274009DDBF1 /* SwiftCSV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB74B911CCB9274009DDBF1 /* SwiftCSV.framework */; };
 		5FB74BB71CCB929D009DDBF1 /* SwiftCSV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB74BAD1CCB929D009DDBF1 /* SwiftCSV.framework */; };
 		5FB74BD11CCB92E5009DDBF1 /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAAEE9B1C74C7EC00A933DB /* CSV.swift */; };
@@ -138,6 +142,7 @@
 		502CDAF32AC60ADA00766701 /* ResourceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceHelper.swift; sourceTree = "<group>"; };
 		5034F4712272E0DC001C02D1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5034F4722272E0E4001C02D1 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		504F73F02BEF52AA00FF4102 /* Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Project.xcconfig; path = Configuration/Project.xcconfig; sourceTree = "<group>"; };
 		508975D11DBB897A006F3DBE /* NamedCSVView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NamedCSVView.swift; sourceTree = "<group>"; };
 		508975D61DBF34CF006F3DBE /* ParsingState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParsingState.swift; sourceTree = "<group>"; };
 		508975DB1DBF3B70006F3DBE /* EnumeratedCSVView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumeratedCSVView.swift; sourceTree = "<group>"; };
@@ -147,6 +152,7 @@
 		508CA1042772039E0084C8E8 /* CSVDelimiterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVDelimiterTests.swift; sourceTree = "<group>"; };
 		50A2B23324894DC900B168A9 /* NewlineTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewlineTests.swift; sourceTree = "<group>"; };
 		50B3EEA3286F8A84007B3956 /* CSVDelimiter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVDelimiter.swift; sourceTree = "<group>"; };
+		50B575D92BEE1E2E006C9262 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		50F241A4274BB8DB00520A69 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 		50F241A5274BBDF000520A69 /* SwiftCSV.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SwiftCSV.podspec; sourceTree = "<group>"; };
 		50F241A6274BBDF000520A69 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -231,6 +237,7 @@
 				50F241A4274BB8DB00520A69 /* CHANGELOG.md */,
 				50F241A6274BBDF000520A69 /* Package.swift */,
 				50F241A5274BBDF000520A69 /* SwiftCSV.podspec */,
+				504F73F02BEF52AA00FF4102 /* Project.xcconfig */,
 				3D1E59B61945FFAC001CF760 /* SwiftCSV */,
 				3D1E59C31945FFAD001CF760 /* SwiftCSVTests */,
 				3D1E59B51945FFAC001CF760 /* Products */,
@@ -265,6 +272,7 @@
 				BE9B02D71CBE57B8009FE424 /* Parser.swift */,
 				508975D61DBF34CF006F3DBE /* ParsingState.swift */,
 				DFAD8B7A28B601EB0042BB56 /* Serializer.swift */,
+				50B575D82BEE1E2E006C9262 /* Resources */,
 			);
 			path = SwiftCSV;
 			sourceTree = "<group>";
@@ -286,6 +294,14 @@
 				5015AD89274BA20A0050F975 /* ParserTests.swift */,
 			);
 			path = SwiftCSVTests;
+			sourceTree = "<group>";
+		};
+		50B575D82BEE1E2E006C9262 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				50B575D92BEE1E2E006C9262 /* PrivacyInfo.xcprivacy */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		DDF406462AB83CDE00A2B058 /* Resources */ = {
@@ -534,6 +550,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50B575DA2BEE1E2E006C9262 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,6 +570,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50B575DB2BEE1E2E006C9262 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,6 +590,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50B575DC2BEE1E2E006C9262 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,6 +610,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50B575DD2BEE1E2E006C9262 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -743,6 +763,7 @@
 /* Begin XCBuildConfiguration section */
 		3D1E59C81945FFAD001CF760 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 504F73F02BEF52AA00FF4102 /* Project.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
@@ -803,6 +824,7 @@
 		};
 		3D1E59C91945FFAD001CF760 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 504F73F02BEF52AA00FF4102 /* Project.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
@@ -1245,7 +1267,6 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.8.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu99 gnu++11";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -1283,7 +1304,6 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.8.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu99 gnu++11";
 				MTL_ENABLE_DEBUG_INFO = NO;
